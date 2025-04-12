@@ -30,7 +30,7 @@ export default async function MarketingLayout({
                 <div className="flex gap-4">
                   <ModeToggle />
                   <Link
-                    href="/login"
+                    href="/dashboard"
                     className={cn(
                       buttonVariants({ variant: "default", size: "sm" }),
                       "px-4"
